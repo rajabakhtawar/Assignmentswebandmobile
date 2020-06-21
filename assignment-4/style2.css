@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    
+
+}
+.topbar-icons{
+    list-style: none;
+}
+.topbar-icons li{
+    display: inline;
+    padding-right:10px ;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 14px;
+    padding: 0 !important;
+    margin: 10px !important;
+    font-weight: lighter;
+
+}
+.navbar{
+    background-color: white !important;
+    border-bottom: 1px solid;
+    border-color: rgb(199, 199, 199);
+}
+
+.abc{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mt-50px{
+    margin-top: 50px;
+    padding: 20px;   
+}
+.login h1{
+    font-weight: bold;
+    font-size: 30px;    
+}
+.login-form-head-text p{
+    font-size: 12px;
+}
+
+.form-container{
+    background: #fff;
+    padding: 30px;
+}
+.login{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container label{
+    font-weight: bold;
+}
+.login-paragraph{
+    font-size: 13px;
+}
+.forgot-password{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.forgot-password a{
+    color: #000;
+    font-weight: 500;
+}
+.forgot-password a:hover{
+     
+    transition: 0.5s;
+    color: rgba(0, 0, 0,0.8);
+}
+.submit-button{
+    background-color: rgba(0, 0, 0);
+    border: none;
+}
+.submit-button:hover{
+    background-color:rgba(0, 0, 0,0.8); 
+    transition: 0.5s;
+}
+.logo-signup-page{
+    text-align: center;
+}
+.logo-signup-page h1{
+    font-size: 50px;
+}
+.head-text-signup-page{
+    text-align: center;
+}
+.signup-button{
+    background-color: rgba(0, 0, 0);
+    border: none;
+}
+.signup-button:hover{
+    background-color:rgba(0, 0, 0,0.8); 
+    transition: 0.5s;
+}
+.have-an-account-text-signup-page{
+    text-align: center;
+    margin-top:50px;
+}
+.signup-page-form{
+    margin-top: 50px;
+}
+.shop{
+    text-align: center;
+}
+.shop img{
+    width: 100%;
+    height: 100% !important;
+    margin-top: 10px;
+}
+
+.shop-category{
+    margin-top: 50px;
+    padding: 10px;    
+}
+.category-items{
+    text-align:center ;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.shop-category-heading h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fashion-grid-category-heading{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+.fashion-grids-category{
+    margin-top: 50px;
+}
+.fashion-grid-card{
+       margin-left: 10px;    
+}
+
+.fashion-grid-card-title{
+   font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fashion-grid-link{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000;
+}
+.fashion-grid-link:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+.fashion-grid-card{
+    margin-top: 10px;
+}
+.what-customers-say-heading{
+    text-align: center;
+}
+.what-customers-say-text{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.what-customers-say{
+    margin-top: 50px;
+    background-color: rgb(235, 233, 233);
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: rgb(46, 46, 46);
+    padding: 10px;
+}
+.copyright-text{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.about-heading{
+    text-align: center;
+}
+.about-us{
+    margin-top: 50px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+}
+.about-heading{
+    text-decoration: underline;
+}
+.about-us-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-us-form-heading{
+    text-align: center;
+}
+.contact-form{
+    margin-top: 30px;
+}
+#new-arrivals{
+    margin-top: 50px;
+    box-shadow: 0 0 10px 0;
+    padding: 20px ;
+}
+
+
+@media screen and (max-width: 576px){
+    .fashion-grid-card{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 10px;
+        
+    }
+    .fashion-grid-top-img{
+        width: 200px !important;        
+    }
+    .footer{
+        text-align: center;
+        
+    }
+    .copyright-text{
+        font-size: 12px;
+    }
+    .head-text-signup-page{
+        text-align: center;
+    }
+    .head-text-signup-page h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+}
+@media screen and (max-width: 376px){
+
+    .fashion-grid-card{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 10px;
+        
+    }
+    .fashion-grid-top-img{
+        width: 150px !important;        
+    }
+    .copyright-text{
+        text-align: left;
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

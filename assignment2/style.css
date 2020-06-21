@@ -1,0 +1,121 @@
+ body{
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+.heading{
+    text-align: center;
+}
+form .label{
+    margin-right: 50px;
+}
+
+#input{
+    margin-left: 30px;
+}
+
+
+#email{
+    margin-left: 30px;
+}
+
+#mobnum{
+    margin-left: -30px;
+}
+
+#gender{
+    margin-left: -30px;
+}
+#address{
+    margin-left: 25px;
+}
+#city{
+    margin-left: 30px;
+}
+#state{
+    margin-left: 30px;
+}
+#country{
+    margin-left: 10px;
+}
+#other1{
+    margin-left: 110px;
+}
+
+.form{
+    
+    
+    color: white;
+    background: rgb(127, 89, 199);
+    width: 60%;
+    margin-left: 250px;    
+}
+
+#submit{
+    
+    margin-left: 200px;
+    width: 200px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: white;
+    color:black;   
+    box-shadow: 0 5px #666;   
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.submit{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+#img{
+height: 300px;
+}
+
+#thankyou{
+    color: rgb(21, 180, 21);
+}
+button{
+    height: 80px;
+    width: 220px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    color: green;
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.submit-container{
+    height: 100vh;
+    background:rgba( 64.31%,77.65%,22.35%,0.3) ;
+}
+
+
+
+
+
+
+
+
