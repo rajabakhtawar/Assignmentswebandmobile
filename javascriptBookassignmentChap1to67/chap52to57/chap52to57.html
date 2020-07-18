@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="column">
+            <img src="images/1.jpg" height="200px" width="230px" onclick="openModal();currentSlide(1)"
+                class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/6.jpg" height="200px" width="230px" onclick="openModal();currentSlide(2)"
+                class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/3.jpg" height="200px" width="230px" onclick="openModal();currentSlide(3)"
+                class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/4.png" height="200px" width="230px" onclick="openModal();currentSlide(4)"
+                class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="images/5.jpg" height="200px" width="230px" onclick="openModal();currentSlide(4)"
+                class="hover-shadow">
+        </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 5</div>
+                <img src="images/1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 5</div>
+                <img src="images/6.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 5</div>
+                <img src="images/3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 5</div>
+                <img src="images/4.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                <img src="images/5.jpg" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column">
+                <img class="demo" src="images/1.jpg" onclick="currentSlide(1)" alt="Nature">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/6.jpg" onclick="currentSlide(2)" alt="Snow">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/3.jpg" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/4.png" onclick="currentSlide(4)" alt="Lights">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="images/5.jpg" onclick="currentSlide(5)" alt="Lights">
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div style="text-align: center;">
+        <p id="para">Saylani Welfare International Trust is a Pakistani charity focusing primarily on feeding the
+            homeless. It was
+            established in May 1999 and is headquartered at Bahdurabad, Karachi, Pakistan.
+            It was founded and headed by spiritual and religious scholar Maulana Bashir Farooq Qadri. With an
+            estimated monthly expenditure of Pakistani Rupees above 30 million, Saylani Trust, provides food twice a day
+            to more than 30,000 poor people through its 100 centers (generally known as Dastar-Khawan), most of them are
+            serving in Karachi. The organization distributed CNG rickshaws among the jobless citizens of Karachi
+            in April, 2011 with the help of members of the Karachi business community.</p>
+        <button style="width: 20%;height: 30px;font-size: large;" onclick="zoomIn()" id="zoomin">Zoom In (+)</button>
+        <button style="width: 20%;height: 30px;font-size: large;" onclick="zoomOut()" id="zoomout">Zoom Out (-)</button>
+    </div>
+
+    <script src="chap52to57.js"></script>
+</body>
+
+</html>

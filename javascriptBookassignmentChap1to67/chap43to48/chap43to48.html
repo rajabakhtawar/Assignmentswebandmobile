@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Javascript Assignment</h1>
+
+    <a style="font-size: 32px;" href="#" onclick="alert('Thanks for clicking on this link')">Click Here</a>
+
+    <div style="border: 2px solid black; text-align: center;">
+        <img onclick="alert('Thanks for purchasing a phone from us')" src="images/iphone.jpg" alt="">
+        <img onclick="alert('Thanks for purchasing a phone from us')" src="images/oppo.jpg" alt="">
+        <img onclick="alert('Thanks for purchasing a phone from us')" src="images/samsung.jpg" alt="">
+        <img onclick="alert('Thanks for purchasing a phone from us')" src="images/vivo.jpg" alt="">
+        <img onclick="alert('Thanks for purchasing a phone from us')" src="images/redmi.jpg" alt="">
+    </div>
+    <br>
+
+    <table style="width: 250px;" id="table">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>John</td>
+            <td>10</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mark</td>
+            <td>8</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>James</td>
+            <td>7</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Alastair</td>
+            <td>6</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ben</td>
+            <td>5</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Tom</td>
+            <td>4</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Mitchel</td>
+            <td>3</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Smith</td>
+            <td>2</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Mickey</td>
+            <td>1</td>
+            <td><button onclick="removeRow()" id="btn">Delete</button></td>
+        </tr>
+    </table>
+    <br>
+
+    <img style="display: block; width: 600px; margin-left: auto; margin-right: auto;" id="image"
+        src="images/mouseout.jpg" onmouseover="newPic()" onmouseout="oldPic()" alt="">
+    <br>
+
+    <div class="main" style="text-align: center;">
+        <h1>Click Counter</h1>
+        <button onclick="increaseCounter()" id="increase">Increase</button>
+        <input type="text" value="0" id="screen">
+        <button onclick="decreaseCounter()" id="decrease">Decrease</button>
+    </div>
+
+
+
+
+    <script src="chap43to48.js"></script>
+</body>
+
+</html>
